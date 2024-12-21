@@ -50,3 +50,31 @@ multiBtn.addEventListener("click", () => opp = "*");
 
 const divBtn = document.querySelector("#divide");
 divBtn.addEventListener("click", () => opp = "/");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const clearBtn = document.querySelector("#clear");
+clearBtn.addEventListener("click", () => screen.textContent = "0");
+
+const invertBtn = document.querySelector("#invert");
+invertBtn.addEventListener("click", () => screen.textContent = Number(screen.textContent) * (-1));
+
+const percentBtn = document.querySelector("#percent");
+percentBtn.addEventListener("click", () => screen.textContent = Number(screen.textContent) * 0.01);
