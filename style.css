@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculatorBody {
+  height: 700px;
+  width: 500px;
+  border: solid black 10px;
+  flex-flow: column;
+  background-color: black;
+  border-radius: 7px;
+  gap: 10px;
+}
+
+#screen {
+  height: 150px;
+  width: auto;
+  background-color: rgb(188, 188, 188);
+  border-radius: 7px;
+  border: solid;
+}
+
+#btns {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+
+}
+
+button {
+  flex: 1;
+  font-size: 2rem;
+  border-radius: 7px;
+  border: solid;
+}
+
+#zero {
+  flex: 2 1 auto;
+}
+
+.num {
+  background-color: rgb(25, 127, 230);
+}
+
+.sign {
+  background-color: rgb(36, 195, 153);
+}
+
+.aux {
+  background-color: rgb(244, 170, 60);
+}
+
+#equals {
+  background-color: rgb(36, 195, 153);
+}
