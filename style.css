@@ -23,6 +23,8 @@
   line-height: 144px;
   font-size: 6.5rem;
   padding-right: 30px;
+  padding-left: 30px;
+  overflow: scroll;
 }
 
 #btns {
